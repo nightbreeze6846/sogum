@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     2015. 3. 16. 오후 11:35:12                                                        
+
+     project    
+     description
+                   
+     Park                                                                
+     ====================================================================== -->
+<project name="project" default="default">
+    <description>
+            description
+    </description>
+
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="default" depends="depends" description="description">
+        
+    </target>
+
+    <!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="depends">
+    </target>
+
+</project>
